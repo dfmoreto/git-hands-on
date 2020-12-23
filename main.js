@@ -8,7 +8,7 @@ class Person {
   }
 
   grettings() {
-    console.log(`Olá, ${this.name}!`)
+    console.log(`Bom dia, ${this.name}!`)
   }
 }
 

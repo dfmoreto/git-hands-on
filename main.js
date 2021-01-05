@@ -14,9 +14,14 @@ class Person {
   smile() {
     console.log(":)")
   }
+
+  talk(){
+    console.log('Hey !')
+  }
 }
 
 person = new Person('Hands On!')
 person.walk()
 person.grettings()
 person.smile()
+person.talk()
